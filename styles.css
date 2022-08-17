@@ -16,5 +16,24 @@ article {
 
 h2 {
     margin: auto;
-    font-style: oblique;
+    font-style: bold;
+}
+
+h1 {
+    font-size: 2em;
+    transition: 1s;
+    margin: auto;
+}
+
+h1:hover {
+    font-size: 3em;
+}
+
+li:nth-child(3) {
+    background-color: red;
+    font-weight: 700;
+}
+
+.tab {
+    width: 10px;
 }
